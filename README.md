@@ -72,3 +72,5 @@ La mejor solución fue crear un círculo y después introducir dentro el icono. 
 Por último, hemos animado con `hoover` las tarjetas y los _items_ de la barra de navegación. Lo hemos hecho llamando la función `@keyframes` con nuestra categoría creada bajo el nombre de `webanimation`. Se ha optado por mantener un efecto "chicle".
 
 > Fin del laboratorio.
+
+**Hago los cambios sugeridos tras corrección. `grid-template-columns: repeat(3, minmax(420px, 1fr))` en vez de `grid-template-columns: repeat(auto-fit, minmax(420px, 1fr))`para que efectivamente salgan 3 elementos por fila. Aplico a `.grid-container` un `max-width: 1280px` para mantener los requerimientos de la tarea. Por último, hago `margin: 0 auto` para centrar. **

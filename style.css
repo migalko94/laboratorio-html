@@ -55,7 +55,9 @@ nav a {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+  grid-template-columns: repeat(3, minmax(420px, 1fr));
+  max-width: 1280px;
+  margin: 0 auto;
 }
 
 .grid-item {
