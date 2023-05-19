@@ -27,6 +27,11 @@
 h1 {
   font-family: "MontserratBold";
   font-size: 32px;
+  padding: 2rem;
+  padding-left: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h2 {
@@ -50,7 +55,6 @@ nav {
 
 nav a {
   padding: 1rem;
-
   text-decoration: none;
   justify-content: space-between;
   color: #212429;
@@ -59,6 +63,10 @@ nav a {
 }
 
 nav a:hover {
+  animation: webanimation 0.9s, both;
+}
+
+nav div a:hover {
   animation: webanimation 0.9s, both;
 }
 
@@ -98,7 +106,7 @@ nav a:hover {
   display: flex;
   padding: 1rem;
   flex-flow: row wrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -108,13 +116,22 @@ footer {
   flex-flow: row wrap;
   justify-content: space-around;
   padding: 1rem;
-  align-items: center;
 }
 
 footer p {
   color: #ffffff;
   font-size: 16px;
+}
+
+.footer-section {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
   padding: 1rem;
+}
+
+.footer-section p {
+  margin-left: 1rem;
 }
 
 .circle {
