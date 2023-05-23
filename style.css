@@ -62,11 +62,7 @@ nav a {
   font-size: 16px;
 }
 
-nav a:hover {
-  animation: webanimation 0.9s, both;
-}
-
-nav div a:hover {
+nav img:hover {
   animation: webanimation 0.9s, both;
 }
 
